@@ -20,11 +20,13 @@ code {
   min-height: 100vh;
 }
 [data-theme="defaut"] {
-  --background-color-dark: #46584a;
-  --background-color-light: #203f27;
+  --background-color-dark: #4b5f50;
+  --background-color-light: #9ecfa9;
   --button-color-hover: #8f89dd;
   --button-color: #bdaad0;
   --blur-green-background: rgba(102, 143, 111, 0.225);
+  --blur-dark-green-background: rgb(53, 71, 57, 0.76);
+  --blur-grey-background: rrgba(44, 54, 46, 0.342);
 }
 [data-theme="monocolor"] {
   --background-color-dark: #757575;
@@ -32,4 +34,5 @@ code {
   --button-color-hover: #8f89dd;
   --button-color: #a0a0a0;
   --blur-green-background: rgba(102, 143, 111, 0.225);
+  --blur-grey-background: rgba(252, 252, 252, 0.225);
 }

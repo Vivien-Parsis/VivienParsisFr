@@ -1,28 +1,6 @@
 .mapLeaflet {
-  height: 70vh;
+  height: 80vh;
   z-index: 0;
-}
-.popupEtablissement {
-  width: 300px;
-  height: 200px;
-}
-.infoPopupEtablissement {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-}
-.infoPopupEtablissement p {
-  margin: 0.1em 0;
-}
-.infoPopupEtablissement img {
-  width: 40%;
-}
-.infoPopupEtablissement div {
-  width: 58%;
-}
-.infoPopupEtablissement div span {
-  display: block;
-  width: 100%;
 }
 .infoBackground {
   background-image: url("../../images/train/rail-bg.jpg");
@@ -37,14 +15,15 @@
 }
 .infoContainer,
 .infoBackground {
-  min-height: 30vh;
+  min-height: 20vh;
 }
-.infoContainer p, .infoContainer ul {
+.infoContainer p,
+.infoContainer ul {
   margin: 0;
   padding: 1em 4em;
   list-style: none;
 }
 .infoContainer ul li svg {
-    width: 1.5em;
-    height: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
 }

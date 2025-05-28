@@ -1,0 +1,24 @@
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: var(--blur-green-background);
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
+.errorBackground {
+  background-image: url("../../images/texture2.jpg");
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.errorContainer p {
+  font-size: 1.5em;
+  text-align: center;
+}

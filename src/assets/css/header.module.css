@@ -1,0 +1,21 @@
+header {
+  width: 100%;
+  text-align: center;
+  background-color: var(--blur-dark-green-background);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  z-index: 99;
+}
+header a {
+  text-decoration: none;
+}
+header h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  margin: 0 0 0 0.5em;
+  padding: 0.2em 0 0.2em;
+}
