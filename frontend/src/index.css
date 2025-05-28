@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Lexend;
+  src: url("./assets/font/Lexend-Regular.ttf");
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body * {
+  font-family: Lexend, Arial, Helvetica, sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  min-height: 100vh;
+}
+[data-theme="defaut"] {
+  --background-color-dark: #46584a;
+  --background-color-light: #203f27;
+  --button-color-hover: #8f89dd;
+  --button-color: #bdaad0;
+  --blur-green-background: rgba(102, 143, 111, 0.225);
+}
+[data-theme="monocolor"] {
+  --background-color-dark: #757575;
+  --background-color-light: #dddddd;
+  --button-color-hover: #8f89dd;
+  --button-color: #a0a0a0;
+  --blur-green-background: rgba(102, 143, 111, 0.225);
+}
