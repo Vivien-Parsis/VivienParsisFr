@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router";
-import "./App.css";
+import "./app.css";
 import Footer from "./components/footer";
 import Error404 from "./pages/error/error404";
 import HomePage from "./pages/HomePage";
