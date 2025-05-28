@@ -15,12 +15,15 @@ const HomePage = () => {
         <h3>Développeur web</h3>
         <span>
           <Tooltip title="Github">
-            <Link to="https://github.com/Vivien-Parsis">
+            <Link to="https://github.com/Vivien-Parsis" target="_blank">
               <GithubIcon alt="icon linktree" />
             </Link>
           </Tooltip>
           <Tooltip title="Linkedin">
-            <Link to="https://www.linkedin.com/in/vivien-parsis-9618361b2/">
+            <Link
+              to="https://www.linkedin.com/in/vivien-parsis-9618361b2/"
+              target="_blank"
+            >
               <LinkedinIcon alt="linkedin icon" />
             </Link>
           </Tooltip>

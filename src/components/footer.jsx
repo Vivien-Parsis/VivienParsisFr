@@ -6,7 +6,10 @@ const Footer = () => {
   return (
     <footer style={styles}>
       <Link to="/">Mention légales</Link> -{" "}
-      <Link to="https://github.com/Vivien-Parsis/VivienParsisFr">
+      <Link
+        to="https://github.com/Vivien-Parsis/VivienParsisFr"
+        target="_blank"
+      >
         codes source
       </Link>
     </footer>
