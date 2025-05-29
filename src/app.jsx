@@ -6,6 +6,7 @@ import HomePage from "./pages/HomePage";
 import MapTrain from "./pages/train/MapTrain";
 import Project from "./pages/project/project";
 import Header from "./components/header";
+import City from "./pages/train/City";
 
 function App() {
   const location = useLocation();
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/train" element={<MapTrain />} />
+        <Route path="/train/city" element={<City />} />
         <Route path="/projet" element={<Project />} />
         <Route path="*" element={<Error404 />} />
       </Routes>

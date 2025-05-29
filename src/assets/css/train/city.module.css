@@ -1,0 +1,36 @@
+.container {
+  background-image: url(/src/assets/images/texture2.jpg);
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container h2 {
+  text-align: center;
+}
+.container a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+.contentStyle {
+  display: flex !important ;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: var(--blur-green-background);
+  backdrop-filter: blur(10px);
+  padding: 1em 0;
+}
+
+.contentStyle img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  width: 100px !important ;
+  height: 100px !important ;
+  color: white;
+}

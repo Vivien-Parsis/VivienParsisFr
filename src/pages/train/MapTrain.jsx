@@ -12,6 +12,7 @@ import {
 } from "react-leaflet";
 import { center, locations, trajets } from "./location";
 import RailIcon from "../../assets/images/train/rail-road-svgrepo-com.svg?react";
+import { Link } from "react-router";
 
 const MapTrain = () => {
   const cityPin = leaflet.icon({
@@ -29,6 +30,12 @@ const MapTrain = () => {
         <Marker position={locations[key].coord} icon={cityPin} key={key}>
           <Popup className={styles.popupLoc}>
             <h2>{key}</h2>
+            <Link
+              to="/train/city"
+              state={{ photos: locations[key].photos, city: key }}
+            >
+              Voir des photos
+            </Link>
           </Popup>
         </Marker>
       );
