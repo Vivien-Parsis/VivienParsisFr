@@ -49,10 +49,19 @@ const MapTrain = () => {
       return;
     }
     for (let key of Object.keys(trajets)) {
+      let lineColor = "black";
+      if (trajets[key].type == "train") {
+        lineColor = "orange";
+      }
+      if (trajets[key].type == "voiture") {
+        lineColor = "gray";
+      }
       content.push(
         <Polyline
           positions={trajets[key].coords}
-          pathOptions={{ color: "orange" }}
+          pathOptions={{
+            color: lineColor,
+          }}
           key={key}
         >
           <Popup>
@@ -61,6 +70,8 @@ const MapTrain = () => {
             distance : {trajets[key].distance} km
             <br />
             mois : {trajets[key].mois}
+            <br />
+            type : {trajets[key].type}
           </Popup>
         </Polyline>
       );
@@ -68,11 +79,14 @@ const MapTrain = () => {
     return content;
   };
 
-  const getDistance = (trajets) => {
+  const getDistanceTrain = (trajets) => {
     const content = [];
     let month = {};
     let total = 0;
     for (let key of Object.keys(trajets)) {
+      if (trajets[key].type == "voiture") {
+        continue;
+      }
       if (!month[trajets[key].mois]) {
         month[trajets[key].mois] = 0;
       }
@@ -114,15 +128,17 @@ const MapTrain = () => {
       <div className={styles.infoBackground}>
         <div className={styles.infoContainer}>
           <p>
-            Cette page retrace l'ensemble de mes déplacements en train pour
-            l'année 2024, ainsi que pour les années futures. Les trajets sont
-            représentés sous forme de carte. En cliquant sur les icônes photo
-            situées sur la carte, vous pouvez accéder à une galerie d'images
-            pour chaque destination. <br />
+            Cette page retrace l'ensemble de mes déplacements en train et
+            voiture de 2024 a {new Date().getFullYear()}. Les trajets sont
+            représentés sous forme de carte. Les trajets oranges ont été realisé
+            en train, les trajets ont été realisé en voiture En cliquant sur les
+            icônes situées sur la carte, vous pouvez accéder à une galerie
+            d'images pour chaque destination. <br />
             En dessous, un récapitulatif des kilomètres accumulés au cours de
             l'année, ainsi qu'une répartition mensuelle.
           </p>
-          <ul>{getDistance(trajets)}</ul>
+          <span>Distance en train :</span>
+          <ul>{getDistanceTrain(trajets)}</ul>
         </div>
       </div>
     </div>

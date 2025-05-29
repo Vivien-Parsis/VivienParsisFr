@@ -20,10 +20,10 @@ const Project = () => {
           <li>React</li>
         </ul>
         <Link to="https://handimap.onrender.com/" target="_blank">
-          > Voir le projet
+          {">"} Voir le projet
         </Link>
         <Link to="https://github.com/Vivien-Parsis/handiMap" target="_blank">
-          > Voir le code source
+          {">"} Voir le code source
         </Link>
       </div>
     </div>
