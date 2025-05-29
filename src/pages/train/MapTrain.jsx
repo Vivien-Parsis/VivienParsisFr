@@ -10,7 +10,7 @@ import {
   ZoomControl,
   Polyline,
 } from "react-leaflet";
-import { center, locations, trajets } from "./location";
+import { center, locations, trajets } from "./utils/";
 import RailIcon from "../../assets/images/train/rail-road-svgrepo-com.svg?react";
 import { Link } from "react-router";
 

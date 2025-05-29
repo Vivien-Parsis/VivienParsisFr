@@ -8,15 +8,17 @@ const City = () => {
   const navigate = useNavigate();
   const photos = location.state?.photos || [];
   const city = location.state?.city || "";
+  console.log(photos)
   const getPhoto = (photos) => {
     if (!photos) {
       return;
     }
     const content = [];
     for (let i = 0; i < photos.length; i++) {
+      console.log(photos[i]);
       content.push(
         <div className={styles.contentStyle}>
-          <img src={photos[i]} key={i} alt="" />
+          <img src={photos[i]} key={i} alt="" loading="lazy" />
         </div>
       );
     }
