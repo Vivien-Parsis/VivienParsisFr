@@ -5,7 +5,7 @@ import { Link } from "react-router";
 const Project = () => {
   return (
     <div className={styles.projectContainer}>
-      <h1>Mes projet</h1>
+      <h1>Mes projets</h1>
       <div className={styles.project}>
         <h2>Handi'Map</h2>
         <p>
@@ -20,10 +20,10 @@ const Project = () => {
           <li>React</li>
         </ul>
         <Link to="https://handimap.onrender.com/" target="_blank">
-          Voir le projet
+          > Voir le projet
         </Link>
         <Link to="https://github.com/Vivien-Parsis/handiMap" target="_blank">
-          Voir le code source
+          > Voir le code source
         </Link>
       </div>
     </div>
