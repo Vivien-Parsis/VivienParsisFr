@@ -1,38 +1,27 @@
 @font-face {
-  font-family: Lexend;
-  src: url("./assets/font/Lexend-Regular.ttf");
+	font-family: Lexend;
+	src: url("./assets/font/Lexend-Regular.ttf");
+}
+:root {
+	--background-color-dark: #4b5f50;
+	--background-color-light: #9ecfa9;
+	--button-color-hover: #69e398;
+	--button-color: #bdaad0;
+	--blur-green-background: rgba(102, 143, 111, 0.225);
+	--blur-dark-green-background: rgb(53, 71, 57, 0.76);
+	--blur-grey-background: rrgba(44, 54, 46, 0.342);
+	min-height: 100vh;
 }
 body {
-  margin: 0;
-  min-height: 100vh;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	min-height: 100vh;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 body * {
-  font-family: Lexend, Arial, Helvetica, sans-serif;
+	font-family: Lexend, Arial, Helvetica, sans-serif;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-:root {
-  min-height: 100vh;
-}
-[data-theme="defaut"] {
-  --background-color-dark: #4b5f50;
-  --background-color-light: #9ecfa9;
-  --button-color-hover: #8f89dd;
-  --button-color: #bdaad0;
-  --blur-green-background: rgba(102, 143, 111, 0.225);
-  --blur-dark-green-background: rgb(53, 71, 57, 0.76);
-  --blur-grey-background: rrgba(44, 54, 46, 0.342);
-}
-[data-theme="monocolor"] {
-  --background-color-dark: #757575;
-  --background-color-light: #dddddd;
-  --button-color-hover: #8f89dd;
-  --button-color: #a0a0a0;
-  --blur-green-background: rgba(102, 143, 111, 0.225);
-  --blur-grey-background: rgba(252, 252, 252, 0.225);
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
