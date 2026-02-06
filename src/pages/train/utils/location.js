@@ -141,6 +141,26 @@ const locations = {
     "Reims": {
         coord: [49.2583, 4.0317],
         photos: []
+    },
+    "Pau": {
+        coord: [43.294806736, -0.370777029],
+        photos: []
+    },
+    "Beauvais": {
+        coord: [49.429587238, 2.081991375],
+        photos: []
+    },
+    "Le Tréport - Mers-les-Bains": {
+        coord: [50.06270236721895, 1.3762779231910827],
+        photos: []
+    },
+    "Lourdes": {
+        coord: [43.091679787, -0.045900392],
+        photos: []
+    },
+    "Bruxelles": {
+        coord: [50.84666522439074, 4.352560043334962],
+        photos: []
     }
 }
 

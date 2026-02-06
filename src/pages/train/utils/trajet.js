@@ -254,6 +254,41 @@ const trajets = {
         distance: 144,
         mois: "Mai 2025",
         type: "voiture"
+    },
+    "Hendaye-Pau": {
+        coords: [locations["Hendaye"].coord, locations["Pau"].coord],
+        number: 2,
+        distance: 143,
+        mois: "Décembre 2025",
+        type: "train"
+    },
+    "Hendaye-Lourdes": {
+        coords: [locations["Hendaye"].coord, locations["Lourdes"].coord],
+        number: 2,
+        distance: 170,
+        mois: "Janvier 2026",
+        type: "train"
+    },
+    "Paris-Le Tréport - Mers-les-Bains": {
+        coords: [locations["Paris"].coord, locations["Le Tréport - Mers-les-Bains"].coord],
+        number: 2,
+        distance: 190,
+        mois: "Novembre 2025",
+        type: "train"
+    },
+    "Paris-Bruxelles": {
+        coords: [locations["Paris"].coord, locations["Bruxelles"].coord],
+        number: 2,
+        distance: 310,
+        mois: "Aout 2025",
+        type: "train"
+    },
+    "Paris-Beauvais": {
+        coords: [locations["Paris"].coord, locations["Beauvais"].coord],
+        number: 2,
+        distance: 75,
+        mois: "Novembre 2025",
+        type: "train"
     }
 };
 
