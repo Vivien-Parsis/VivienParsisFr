@@ -289,7 +289,21 @@ const trajets = {
         distance: 75,
         mois: "Novembre 2025",
         type: "train"
-    }
+    },
+    "Paris-Angers": {
+        coords: [locations["Paris"].coord, locations["Angers"].coord],
+        number: 2,
+        distance: 304,
+        mois: "Fevrier 2026",
+        type: "train"
+    },
+    "Paris-Arras": {
+        coords: [locations["Paris"].coord, locations["Arras"].coord],
+        number: 2,
+        distance: 185,
+        mois: "Fevrier 2026",
+        type: "train"
+    },
 };
 
 export { trajets }

@@ -161,6 +161,14 @@ const locations = {
     "Bruxelles": {
         coord: [50.84666522439074, 4.352560043334962],
         photos: []
+    },
+    "Angers": {
+        coord: [47.4784, -0.5632],
+        photos: []
+    },
+    "Arras": {
+        coord: [50.2910, 2.7775],
+        photos: []
     }
 }
 
