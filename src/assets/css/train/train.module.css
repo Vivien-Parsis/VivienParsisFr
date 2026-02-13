@@ -20,10 +20,15 @@
 .infoContainer p,
 .infoContainer ul {
   margin: 0;
-  padding: 1em 4em;
+  padding: 1em 1em;
   list-style: none;
 }
 .infoContainer ul li svg {
   width: 1.5em;
   height: 1.5em;
+}
+.infoContainer span {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin:0 1em;
 }

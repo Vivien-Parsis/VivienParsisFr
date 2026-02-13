@@ -156,7 +156,12 @@ const locations = {
     },
     "Lourdes": {
         coord: [43.091679787, -0.045900392],
-        photos: []
+        photos: [
+            "/images/city/lourdes/lourdes1.jpg",
+            "/images/city/lourdes/lourdes2.jpg",
+            "/images/city/lourdes/lourdes3.jpg",
+            "/images/city/lourdes/lourdes4.jpg",
+        ]
     },
     "Bruxelles": {
         coord: [50.84666522439074, 4.352560043334962],
@@ -164,11 +169,38 @@ const locations = {
     },
     "Angers": {
         coord: [47.4784, -0.5632],
-        photos: []
+        photos: [
+            "/images/city/angers/angers1.jpg",
+            "/images/city/angers/angers2.jpg",
+            "/images/city/angers/angers3.jpg",
+            "/images/city/angers/angers4.jpg",
+            "/images/city/angers/angers5.jpg",
+            "/images/city/angers/angers6.jpg",
+            "/images/city/angers/angers7.jpg",
+            "/images/city/angers/angers8.jpg",
+            "/images/city/angers/angers9.jpg",
+            "/images/city/angers/angers10.jpg",
+            "/images/city/angers/angers11.jpg",
+            "/images/city/angers/angers12.jpg",
+            "/images/city/angers/angers13.jpg",
+            "/images/city/angers/angers14.jpg",
+            "/images/city/angers/angers15.jpg",
+            "/images/city/angers/angers16.jpg",
+            "/images/city/angers/angers17.jpg",
+            "/images/city/angers/angers18.jpg",
+        ]
     },
     "Arras": {
         coord: [50.2910, 2.7775],
-        photos: []
+        photos: [
+            "/images/city/arras/arras1.jpg",
+            "/images/city/arras/arras2.jpg",
+            "/images/city/arras/arras3.jpg",
+            "/images/city/arras/arras4.jpg",
+            "/images/city/arras/arras5.jpg",
+            "/images/city/arras/arras6.jpg",
+            "/images/city/arras/arras7.jpg",
+        ]
     }
 }
 
