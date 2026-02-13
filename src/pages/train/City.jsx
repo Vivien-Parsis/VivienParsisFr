@@ -33,7 +33,7 @@ const City = () => {
     <div className={styles.container}>
       <div>
         <h2>{city}</h2>
-        <Carousel arrows draggable={true} autoplay autoplaySpeed={10000}>
+        <Carousel arrows draggable={true} autoplay autoplaySpeed={10000} fade={true} draggable={true}>
           {getPhoto(photos)}
         </Carousel>
       </div>
