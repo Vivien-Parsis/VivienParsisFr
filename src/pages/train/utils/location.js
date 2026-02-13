@@ -144,15 +144,46 @@ const locations = {
     },
     "Pau": {
         coord: [43.294806736, -0.370777029],
-        photos: []
+        photos: [
+            "/images/city/pau/pau1.jpg",
+            "/images/city/pau/pau2.jpg",
+            "/images/city/pau/pau3.jpg",
+            "/images/city/pau/pau4.jpg",
+            "/images/city/pau/pau5.jpg",
+            "/images/city/pau/pau6.jpg",
+            "/images/city/pau/pau7.jpg",
+            "/images/city/pau/pau8.jpg",
+            "/images/city/pau/pau9.jpg",
+        ]
     },
     "Beauvais": {
         coord: [49.429587238, 2.081991375],
-        photos: []
+        photos: [
+            "/images/city/beauvais/beauvais1.jpg",
+            "/images/city/beauvais/beauvais2.jpg",
+            "/images/city/beauvais/beauvais3.jpg",
+            "/images/city/beauvais/beauvais4.jpg",
+            "/images/city/beauvais/beauvais5.jpg",
+            "/images/city/beauvais/beauvais6.jpg",
+        ]
     },
     "Le Tréport - Mers-les-Bains": {
         coord: [50.06270236721895, 1.3762779231910827],
-        photos: []
+        photos: [
+            "/images/city/letreport/letreport1.jpg",
+            "/images/city/letreport/letreport2.jpg",
+            "/images/city/letreport/letreport3.jpg",
+            "/images/city/letreport/letreport4.jpg",
+            "/images/city/letreport/letreport5.jpg",
+            "/images/city/letreport/letreport6.jpg",
+            "/images/city/letreport/letreport7.jpg",
+            "/images/city/letreport/letreport8.jpg",
+            "/images/city/letreport/letreport9.jpg",
+            "/images/city/letreport/letreport10.jpg",
+            "/images/city/letreport/letreport11.jpg",
+            "/images/city/letreport/letreport12.jpg",
+            
+        ]
     },
     "Lourdes": {
         coord: [43.091679787, -0.045900392],
