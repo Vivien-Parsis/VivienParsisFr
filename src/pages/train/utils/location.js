@@ -2,6 +2,7 @@ const center = [46.6380, 2.5700]
 
 const locations = {
     "Paris": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [48.853, 2.349],
         photos: [
             "/images/city/paris/paris1.jpg",
@@ -10,10 +11,12 @@ const locations = {
         ]
     },
     "Lille": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [50.6364, 3.0708],
         photos: []
     },
     "Avallon": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [47.4955, 3.9124],
         photos: [
             "/images/city/avallon/avallon1.jpg",
@@ -29,6 +32,7 @@ const locations = {
         ]
     },
     "Auxerre": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [47.7970, 3.5849],
         photos: [
             "/images/city/auxerre/auxerre1.jpg",
@@ -43,10 +47,12 @@ const locations = {
         ]
     },
     "Chartres": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [48.4560, 1.4840],
         photos: []
     },
     "Orléans": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [47.9047, 1.9028],
         photos: [
             "/images/city/orleans/orleans1.jpg",
@@ -59,6 +65,7 @@ const locations = {
         ]
     },
     "Le Havre": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.4928, 0.1077],
         photos: [
             "/images/city/havre/havre1.jpg",
@@ -75,6 +82,7 @@ const locations = {
         ]
     },
     "Caen": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.1767, -0.3472],
         photos: [
             "/images/city/caen/caen1.jpg",
@@ -88,6 +96,7 @@ const locations = {
         ]
     },
     "Deauville": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.3566, 0.0789],
         photos: [
             "/images/city/deauville/deauville1.jpg",
@@ -100,6 +109,7 @@ const locations = {
         ]
     },
     "Rouen": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.4431, 1.0930],
         photos: [
             "/images/city/rouen/rouen1.jpg",
@@ -115,58 +125,72 @@ const locations = {
         ]
     },
     "Dieppe": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [49.9225, 1.0771],
         photos: []
     },
     "Amiens": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [49.8950, 2.3025],
         photos: []
     },
     "Troyes": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [48.2967, 4.0784],
         photos: []
     },
     "Toulouse": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [43.6111, 1.4546],
         photos: []
     },
     "Bayonne": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [43.4933, -1.4747],
         photos: []
     },
     "Hendaye": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [43.3589, -1.7746],
         photos: []
     },
     "Montauban": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [44.0172, 1.3558],
         photos: []
     },
     "Agen": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [44.2000, 0.6200],
         photos: []
     },
     "Carcassonne": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [43.2130, 2.3530],
         photos: []
     },
     "Narbonne": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [43.1843, 3.0034],
         photos: []
     },
     "Bordeaux": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [44.8253, -0.5560],
         photos: []
     },
     "Montpellier": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [43.6045, 3.8795],
         photos: []
     },
     "Nantes": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [47.2173, -1.5534],
         photos: []
     },
     "Lyon": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [45.7600, 4.8590],
         photos: [
             "/images/city/lyon/lyon1.jpg",
@@ -180,38 +204,47 @@ const locations = {
         ]
     },
     "Château-Thierry": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [49.037957, 3.409492],
         photos: []
     },
     "Vernon": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [49.091193, 1.478397],
         photos: []
     },
     "Creil": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [49.264104, 2.469087],
         photos: []
     },
     "Villers-Cotterêts": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [49.250107, 3.093957],
         photos: []
     },
     "Chantilly": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [49.1942, 2.4707],
         photos: []
     },
     "Compiegne": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [49.4179, 2.8261],
         photos: []
     },
     "Pierrefonds": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [49.3486, 2.9874],
         photos: []
     },
     "Reims": {
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [49.2583, 4.0317],
         photos: []
     },
     "Pau": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [43.294806736, -0.370777029],
         photos: [
             "/images/city/pau/pau1.jpg",
@@ -226,6 +259,7 @@ const locations = {
         ]
     },
     "Beauvais": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.429587238, 2.081991375],
         photos: [
             "/images/city/beauvais/beauvais1.jpg",
@@ -237,6 +271,7 @@ const locations = {
         ]
     },
     "Le Tréport - Mers-les-Bains": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [50.06270236721895, 1.3762779231910827],
         photos: [
             "/images/city/treport/treport1.jpg",
@@ -255,6 +290,7 @@ const locations = {
         ]
     },
     "Lourdes": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [43.091679787, -0.045900392],
         photos: [
             "/images/city/lourdes/lourdes1.jpg",
@@ -264,10 +300,12 @@ const locations = {
         ]
     },
     "Bruxelles": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [50.84666522439074, 4.352560043334962],
         photos: []
     },
     "Angers": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [47.4784, -0.5632],
         photos: [
             "/images/city/angers/angers1.jpg",
@@ -291,6 +329,7 @@ const locations = {
         ]
     },
     "Arras": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [50.2910, 2.7775],
         photos: [
             "/images/city/arras/arras1.jpg",
@@ -301,7 +340,25 @@ const locations = {
             "/images/city/arras/arras6.jpg",
             "/images/city/arras/arras7.jpg",
         ]
-    }
+    },
+    "Cable 1": {
+        icons: "/images/icon/cable-car-cabin-cable-car-svgrepo-com.png",
+        coord: [48.7687, 2.4649],
+        photos: [
+            "/images/city/cable1/cable11.jpg",
+            "/images/city/cable1/cable12.jpg",
+            "/images/city/cable1/cable13.jpg",
+            "/images/city/cable1/cable14.jpg",
+            "/images/city/cable1/cable15.jpg",
+            "/images/city/cable1/cable16.jpg",
+            "/images/city/cable1/cable17.jpg",
+            "/images/city/cable1/cable18.jpg",
+            "/images/city/cable1/cable19.jpg",
+            "/images/city/cable1/cable110.jpg",
+            "/images/city/cable1/cable111.jpg",
+            "/images/city/cable1/cable112.jpg",
+        ]
+    },
 }
 
 export { center, locations }
