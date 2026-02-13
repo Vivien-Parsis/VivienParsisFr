@@ -76,15 +76,43 @@ const locations = {
     },
     "Caen": {
         coord: [49.1767, -0.3472],
-        photos: []
+        photos: [
+            "/images/city/caen/caen1.jpg",
+            "/images/city/caen/caen2.jpg",
+            "/images/city/caen/caen3.jpg",
+            "/images/city/caen/caen4.jpg",
+            "/images/city/caen/caen5.jpg",
+            "/images/city/caen/caen6.jpg",
+            "/images/city/caen/caen7.jpg",
+            "/images/city/caen/caen8.jpg",
+        ]
     },
     "Deauville": {
         coord: [49.3566, 0.0789],
-        photos: []
+        photos: [
+            "/images/city/deauville/deauville1.jpg",
+            "/images/city/deauville/deauville2.jpg",
+            "/images/city/deauville/deauville3.jpg",
+            "/images/city/deauville/deauville4.jpg",
+            "/images/city/deauville/deauville5.jpg",
+            "/images/city/deauville/deauville6.jpg",
+            "/images/city/deauville/deauville7.jpg",
+        ]
     },
     "Rouen": {
         coord: [49.4431, 1.0930],
-        photos: []
+        photos: [
+            "/images/city/rouen/rouen1.jpg",
+            "/images/city/rouen/rouen2.jpg",
+            "/images/city/rouen/rouen3.jpg",
+            "/images/city/rouen/rouen4.jpg",
+            "/images/city/rouen/rouen5.jpg",
+            "/images/city/rouen/rouen6.jpg",
+            "/images/city/rouen/rouen7.jpg",
+            "/images/city/rouen/rouen8.jpg",
+            "/images/city/rouen/rouen9.jpg",
+            "/images/city/rouen/rouen10.jpg",
+        ]
     },
     "Dieppe": {
         coord: [49.9225, 1.0771],
