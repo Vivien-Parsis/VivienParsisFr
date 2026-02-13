@@ -15,11 +15,32 @@ const locations = {
     },
     "Avallon": {
         coord: [47.4955, 3.9124],
-        photos: []
+        photos: [
+            "/images/city/avallon/avallon1.jpg",
+            "/images/city/avallon/avallon2.jpg",
+            "/images/city/avallon/avallon3.jpg",
+            "/images/city/avallon/avallon4.jpg",
+            "/images/city/avallon/avallon5.jpg",
+            "/images/city/avallon/avallon6.jpg",
+            "/images/city/avallon/avallon7.jpg",
+            "/images/city/avallon/avallon8.jpg",
+            "/images/city/avallon/avallon9.jpg",
+            "/images/city/avallon/avallon10.jpg",
+        ]
     },
     "Auxerre": {
         coord: [47.7970, 3.5849],
-        photos: []
+        photos: [
+            "/images/city/auxerre/auxerre1.jpg",
+            "/images/city/auxerre/auxerre2.jpg",
+            "/images/city/auxerre/auxerre3.jpg",
+            "/images/city/auxerre/auxerre4.jpg",
+            "/images/city/auxerre/auxerre5.jpg",
+            "/images/city/auxerre/auxerre6.jpg",
+            "/images/city/auxerre/auxerre7.jpg",
+            "/images/city/auxerre/auxerre8.jpg",
+            "/images/city/auxerre/auxerre9.jpg",
+        ]
     },
     "Chartres": {
         coord: [48.4560, 1.4840],
@@ -27,11 +48,31 @@ const locations = {
     },
     "Orléans": {
         coord: [47.9047, 1.9028],
-        photos: []
+        photos: [
+            "/images/city/orleans/orleans1.jpg",
+            "/images/city/orleans/orleans2.jpg",
+            "/images/city/orleans/orleans3.jpg",
+            "/images/city/orleans/orleans4.jpg",
+            "/images/city/orleans/orleans5.jpg",
+            "/images/city/orleans/orleans6.jpg",
+            "/images/city/orleans/orleans7.jpg",
+        ]
     },
     "Le Havre": {
         coord: [49.4928, 0.1077],
-        photos: []
+        photos: [
+            "/images/city/havre/havre1.jpg",
+            "/images/city/havre/havre2.jpg",
+            "/images/city/havre/havre3.jpg",
+            "/images/city/havre/havre4.jpg",
+            "/images/city/havre/havre5.jpg",
+            "/images/city/havre/havre6.jpg",
+            "/images/city/havre/havre7.jpg",
+            "/images/city/havre/havre8.jpg",
+            "/images/city/havre/havre9.jpg",
+            "/images/city/havre/havre10.jpg",
+            "/images/city/havre/havre11.jpg",
+        ]
     },
     "Caen": {
         coord: [49.1767, -0.3472],
@@ -170,19 +211,19 @@ const locations = {
     "Le Tréport - Mers-les-Bains": {
         coord: [50.06270236721895, 1.3762779231910827],
         photos: [
-            "/images/city/letreport/letreport1.jpg",
-            "/images/city/letreport/letreport2.jpg",
-            "/images/city/letreport/letreport3.jpg",
-            "/images/city/letreport/letreport4.jpg",
-            "/images/city/letreport/letreport5.jpg",
-            "/images/city/letreport/letreport6.jpg",
-            "/images/city/letreport/letreport7.jpg",
-            "/images/city/letreport/letreport8.jpg",
-            "/images/city/letreport/letreport9.jpg",
-            "/images/city/letreport/letreport10.jpg",
-            "/images/city/letreport/letreport11.jpg",
-            "/images/city/letreport/letreport12.jpg",
-            
+            "/images/city/treport/treport1.jpg",
+            "/images/city/treport/treport2.jpg",
+            "/images/city/treport/treport3.jpg",
+            "/images/city/treport/treport4.jpg",
+            "/images/city/treport/treport5.jpg",
+            "/images/city/treport/treport6.jpg",
+            "/images/city/treport/treport7.jpg",
+            "/images/city/treport/treport8.jpg",
+            "/images/city/treport/treport9.jpg",
+            "/images/city/treport/treport10.jpg",
+            "/images/city/treport/treport11.jpg",
+            "/images/city/treport/treport12.jpg",
+
         ]
     },
     "Lourdes": {
