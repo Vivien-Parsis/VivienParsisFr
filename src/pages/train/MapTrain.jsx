@@ -33,12 +33,17 @@ const MapTrain = () => {
 				>
 					<Popup className={styles.popupLoc}>
 						<h2>{key}</h2>
-						<Link
-							to="/train/city"
-							state={{ photos: locations[key].photos, city: key }}
-						>
-							Voir des photos
-						</Link>
+						{locations[key].photos.length > 0 ? (
+							<Link
+								to="/train/city"
+								state={{
+									photos: locations[key].photos,
+									city: key
+								}}
+							>
+								Voir des photos
+							</Link>
+						) : ""}
 					</Popup>
 				</Marker>
 			);

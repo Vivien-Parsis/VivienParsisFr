@@ -300,7 +300,7 @@ const locations = {
         ]
     },
     "Bruxelles": {
-        icons: "/images/icon/town-svgrepo-com-with-photo.png",
+        icons: "/images/icon/town-svgrepo-com.png",
         coord: [50.84666522439074, 4.352560043334962],
         photos: []
     },
@@ -340,6 +340,11 @@ const locations = {
             "/images/city/arras/arras6.jpg",
             "/images/city/arras/arras7.jpg",
         ]
+    },
+    "Poitiers": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [46.5802, 0.3404],
+        photos: []
     },
     "Cable 1": {
         icons: "/images/icon/cable-car-cabin-cable-car-svgrepo-com.png",

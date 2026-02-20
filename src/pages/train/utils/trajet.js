@@ -304,6 +304,13 @@ const trajets = {
         mois: "Fevrier 2026",
         type: "train"
     },
+    "Paris-Poitiers": {
+        coords: [locations["Paris"].coord, locations["Poitiers"].coord],
+        number: 2,
+        distance: 338,
+        mois: "Fevrier 2026",
+        type: "train"
+    },
 };
 
 export { trajets }
