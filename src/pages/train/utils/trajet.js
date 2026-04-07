@@ -311,6 +311,34 @@ const trajets = {
         mois: "Fevrier 2026",
         type: "train"
     },
+    "Paris-Nevers": {
+        coords: [locations["Paris"].coord, locations["Nevers"].coord],
+        number: 1,
+        distance: 260,
+        mois: "Mars 2026",
+        type: "train"
+    },
+    "Nevers-Bourges": {
+        coords: [locations["Nevers"].coord, locations["Bourges"].coord],
+        number: 1,
+        distance: 68,
+        mois: "Mars 2026",
+        type: "train"
+    },
+    "Bourges-Paris": {
+        coords: [locations["Bourges"].coord, locations["Paris"].coord],
+        number: 1,
+        distance: 250,
+        mois: "Mars 2026",
+        type: "train"
+    },
+    "Paris-Le Mans": {
+        coords: [locations["Paris"].coord, locations["Le Mans"].coord],
+        number: 2,
+        distance: 210,
+        mois: "Avril 2026",
+        type: "train"
+    }
 };
 
 export { trajets }

@@ -364,6 +364,21 @@ const locations = {
             "/images/city/cable1/cable112.jpg",
         ]
     },
+    "Nevers": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [46.9922, 3.1566],
+        photos: []
+    },
+    "Bourges": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [47.0810, 2.3988],
+        photos: []
+    },
+    "Le Mans": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [48.0061, 0.1996],
+        photos: []
+    }
 }
 
 export { center, locations }
