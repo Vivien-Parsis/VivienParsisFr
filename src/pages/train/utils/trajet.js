@@ -338,7 +338,28 @@ const trajets = {
         distance: 210,
         mois: "Avril 2026",
         type: "train"
-    }
+    },
+    "Paris-Clermont-Ferrand": {
+        coords: [locations["Paris"].coord, locations["Clermont-Ferrand"].coord],
+        number: 1,
+        distance: 392,
+        mois: "Avril 2026",
+        type: "train"
+    },
+    "Clermont-Ferrand-Vichy": {
+        coords: [locations["Clermont-Ferrand"].coord, locations["Vichy"].coord],
+        number: 1,
+        distance: 55,
+        mois: "Avril 2026",
+        type: "train"
+    },
+    "Vichy-Paris": {
+        coords: [locations["Vichy"].coord, locations["Paris"].coord],
+        number: 1,
+        distance: 330,
+        mois: "Avril 2026",
+        type: "train"
+    },
 };
 
 export { trajets }
