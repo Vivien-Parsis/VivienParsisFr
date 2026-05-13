@@ -360,6 +360,34 @@ const trajets = {
         mois: "Avril 2026",
         type: "train"
     },
+    "Paris-Aix-les-Bains": {
+        coords: [locations["Paris"].coord, locations["Aix-les-Bains"].coord],
+        number: 1,
+        distance: 530,
+        mois: "Mai 2026",
+        type: "train"
+    },
+    "Aix-les-Bains-Chambéry": {
+        coords: [locations["Aix-les-Bains"].coord, locations["Chambéry"].coord],
+        number: 1,
+        distance: 18,
+        mois: "Mai 2026",
+        type: "train"
+    },
+    "Chambéry-Annecy": {
+        coords: [locations["Chambéry"].coord, locations["Annecy"].coord],
+        number: 1,
+        distance: 50,
+        mois: "Mai 2026",
+        type: "train"
+    },
+    "Annecy-Paris": {
+        coords: [locations["Annecy"].coord, locations["Paris"].coord],
+        number: 1,
+        distance: 520,
+        mois: "Mai 2026",
+        type: "train"
+    },
 };
 
 export { trajets }
