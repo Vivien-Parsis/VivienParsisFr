@@ -389,6 +389,21 @@ const locations = {
         coord: [46.1267, 3.4267],
         photos: []
     },
+    "Aix-les-Bains": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [45.6886, 5.9155],
+        photos: []
+    },
+    "Chambéry": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [45.5646, 5.9178],
+        photos: []
+    },
+    "Annecy": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [45.8992, 6.1294],
+        photos: []
+    },
 }
 
 export { center, locations }
