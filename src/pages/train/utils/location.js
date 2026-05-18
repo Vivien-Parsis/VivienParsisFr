@@ -390,19 +390,60 @@ const locations = {
         photos: []
     },
     "Aix-les-Bains": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [45.6886, 5.9155],
-        photos: []
+        photos: [
+            "/images/city/aix-les-bain/aix-les-bains_1.jpg",
+            "/images/city/aix-les-bain/aix-les-bains_2.jpg",
+            "/images/city/aix-les-bain/aix-les-bains_3.jpg",
+            "/images/city/aix-les-bain/aix-les-bains_4.jpg",
+            "/images/city/aix-les-bain/aix-les-bains_5.jpg",
+            "/images/city/aix-les-bain/aix-les-bains_6.jpg",
+            "/images/city/aix-les-bain/aix-les-bains_7.jpg",
+            "/images/city/aix-les-bain/aix-les-bains_8.jpg",
+            "/images/city/aix-les-bain/aix-les-bains_9.jpg",
+            "/images/city/aix-les-bain/aix-les-bains_10.jpg",
+            "/images/city/aix-les-bain/aix-les-bains_11.jpg",
+            "/images/city/aix-les-bain/aix-les-bains_12.jpg",
+            "/images/city/aix-les-bain/aix-les-bains_13.jpg"
+        ]
     },
     "Chambéry": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [45.5646, 5.9178],
-        photos: []
+        photos: [
+            "/images/city/chambery/chambery_1.jpg",
+            "/images/city/chambery/chambery_2.jpg",
+            "/images/city/chambery/chambery_3.jpg",
+            "/images/city/chambery/chambery_4.jpg",
+            "/images/city/chambery/chambery_5.jpg",
+            "/images/city/chambery/chambery_6.jpg",
+            "/images/city/chambery/chambery_7.jpg",
+            "/images/city/chambery/chambery_8.jpg",
+            "/images/city/chambery/chambery_9.jpg",
+            "/images/city/chambery/chambery_10.jpg"
+        ]
     },
     "Annecy": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [45.8992, 6.1294],
-        photos: []
+        photos: [
+            "/images/city/annecy/annecy_1.jpg",
+            "/images/city/annecy/annecy_2.jpg",
+            "/images/city/annecy/annecy_3.jpg",
+            "/images/city/annecy/annecy_4.jpg",
+            "/images/city/annecy/annecy_5.jpg",
+            "/images/city/annecy/annecy_6.jpg",
+            "/images/city/annecy/annecy_7.jpg",
+            "/images/city/annecy/annecy_8.jpg",
+            "/images/city/annecy/annecy_9.jpg",
+            "/images/city/annecy/annecy_10.jpg",
+            "/images/city/annecy/annecy_11.jpg",
+            "/images/city/annecy/annecy_12.jpg",
+            "/images/city/annecy/annecy_13.jpg",
+            "/images/city/annecy/annecy_14.jpg",
+            "/images/city/annecy/annecy_15.jpg",
+        ]
     },
 }
 
