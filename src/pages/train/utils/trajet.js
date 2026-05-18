@@ -338,7 +338,56 @@ const trajets = {
         distance: 210,
         mois: "Avril 2026",
         type: "train"
-    }
+    },
+    "Paris-Clermont-Ferrand": {
+        coords: [locations["Paris"].coord, locations["Clermont-Ferrand"].coord],
+        number: 1,
+        distance: 392,
+        mois: "Avril 2026",
+        type: "train"
+    },
+    "Clermont-Ferrand-Vichy": {
+        coords: [locations["Clermont-Ferrand"].coord, locations["Vichy"].coord],
+        number: 1,
+        distance: 55,
+        mois: "Avril 2026",
+        type: "train"
+    },
+    "Vichy-Paris": {
+        coords: [locations["Vichy"].coord, locations["Paris"].coord],
+        number: 1,
+        distance: 330,
+        mois: "Avril 2026",
+        type: "train"
+    },
+    "Paris-Aix-les-Bains": {
+        coords: [locations["Paris"].coord, locations["Aix-les-Bains"].coord],
+        number: 1,
+        distance: 530,
+        mois: "Mai 2026",
+        type: "train"
+    },
+    "Aix-les-Bains-Chambéry": {
+        coords: [locations["Aix-les-Bains"].coord, locations["Chambéry"].coord],
+        number: 1,
+        distance: 18,
+        mois: "Mai 2026",
+        type: "train"
+    },
+    "Chambéry-Annecy": {
+        coords: [locations["Chambéry"].coord, locations["Annecy"].coord],
+        number: 1,
+        distance: 50,
+        mois: "Mai 2026",
+        type: "train"
+    },
+    "Annecy-Paris": {
+        coords: [locations["Annecy"].coord, locations["Paris"].coord],
+        number: 1,
+        distance: 520,
+        mois: "Mai 2026",
+        type: "train"
+    },
 };
 
 export { trajets }
