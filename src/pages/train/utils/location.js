@@ -212,10 +212,20 @@ const locations = {
         ]
     },
     "Carcassonne": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [43.2130, 2.3530],
-        photos: []
+        photos: [
+            "/images/city/carcassonne/carcassonne_1.jpg",
+            "/images/city/carcassonne/carcassonne_2.jpg",
+            "/images/city/carcassonne/carcassonne_3.jpg",
+            "/images/city/carcassonne/carcassonne_4.jpg",
+            "/images/city/carcassonne/carcassonne_5.jpg",
+            "/images/city/carcassonne/carcassonne_6.jpg",
+            "/images/city/carcassonne/carcassonne_7.jpg",
+            "/images/city/carcassonne/carcassonne_8.jpg"
+        ]
     },
+    //todo : manque de photo
     "Narbonne": {
         icons: "/images/icon/town-svgrepo-com.png",
         coord: [43.1843, 3.0034],
@@ -227,9 +237,22 @@ const locations = {
         photos: []
     },
     "Montpellier": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [43.6045, 3.8795],
-        photos: []
+        photos: [
+            "/images/city/montpelier/montpelier_1.jpg",
+            "/images/city/montpelier/montpelier_2.jpg",
+            "/images/city/montpelier/montpelier_3.jpg",
+            "/images/city/montpelier/montpelier_4.jpg",
+            "/images/city/montpelier/montpelier_5.jpg",
+            "/images/city/montpelier/montpelier_6.jpg",
+            "/images/city/montpelier/montpelier_7.jpg",
+            "/images/city/montpelier/montpelier_8.jpg",
+            "/images/city/montpelier/montpelier_9.jpg",
+            "/images/city/montpelier/montpelier_10.jpg",
+            "/images/city/montpelier/montpelier_11.jpg",
+            "/images/city/montpelier/montpelier_12.jpg"
+        ]
     },
     "Nantes": {
         icons: "/images/icon/town-svgrepo-com.png",
