@@ -274,14 +274,29 @@ const locations = {
         ]
     },
     "Château-Thierry": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.037957, 3.409492],
-        photos: []
+        photos: [
+            "/images/city/thierry/thierry_1.jpg",
+            "/images/city/thierry/thierry_2.jpg",
+            "/images/city/thierry/thierry_3.jpg",
+            "/images/city/thierry/thierry_4.jpg",
+            "/images/city/thierry/thierry_5.jpg",
+            "/images/city/thierry/thierry_6.jpg"
+        ]
     },
     "Vernon": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.091193, 1.478397],
-        photos: []
+        photos: [
+            "/images/city/vernon/vernon_1.jpg",
+            "/images/city/vernon/vernon_2.jpg",
+            "/images/city/vernon/vernon_3.jpg",
+            "/images/city/vernon/vernon_4.jpg",
+            "/images/city/vernon/vernon_5.jpg",
+            "/images/city/vernon/vernon_6.jpg",
+            "/images/city/vernon/vernon_7.jpg"
+        ]
     },
     "Creil": {
         icons: "/images/icon/town-svgrepo-com.png",
