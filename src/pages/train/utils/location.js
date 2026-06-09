@@ -47,9 +47,16 @@ const locations = {
         ]
     },
     "Chartres": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [48.4560, 1.4840],
-        photos: []
+        photos: [
+            "/images/city/chartres/chartres1.jpg",
+            "/images/city/chartres/chartres2.jpg",
+            "/images/city/chartres/chartres3.jpg",
+            "/images/city/chartres/chartres4.jpg",
+            "/images/city/chartres/chartres5.jpg",
+            "/images/city/chartres/chartres6.jpg"
+        ]
     },
     "Orléans": {
         icons: "/images/icon/town-svgrepo-com-with-photo.png",
@@ -125,19 +132,42 @@ const locations = {
         ]
     },
     "Dieppe": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.9225, 1.0771],
-        photos: []
+        photos: [
+            "/images/city/dieppe/dieppe_1.jpg",
+            "/images/city/dieppe/dieppe_2.jpg",
+            "/images/city/dieppe/dieppe_3.jpg",
+            "/images/city/dieppe/dieppe_4.jpg",
+        ]
     },
     "Amiens": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.8950, 2.3025],
-        photos: []
+        photos: [
+            "/images/city/amiens/amiens_1.jpg",
+            "/images/city/amiens/amiens_2.jpg",
+            "/images/city/amiens/amiens_3.jpg",
+            "/images/city/amiens/amiens_4.jpg",
+            "/images/city/amiens/amiens_5.jpg",
+            "/images/city/amiens/amiens_6.jpg",
+            "/images/city/amiens/amiens_7.jpg",
+            "/images/city/amiens/amiens_8.jpg",
+            "/images/city/amiens/amiens_9.jpg",
+        ]
     },
     "Troyes": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [48.2967, 4.0784],
-        photos: []
+        photos: [
+            "/images/city/troyes/troyes_1.jpg",
+            "/images/city/troyes/troyes_2.jpg",
+            "/images/city/troyes/troyes_3.jpg",
+            "/images/city/troyes/troyes_4.jpg",
+            "/images/city/troyes/troyes_5.jpg",
+            "/images/city/troyes/troyes_6.jpg",
+            "/images/city/troyes/troyes_7.jpg"
+        ]
     },
     "Toulouse": {
         icons: "/images/icon/town-svgrepo-com.png",
@@ -155,14 +185,31 @@ const locations = {
         photos: []
     },
     "Montauban": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [44.0172, 1.3558],
-        photos: []
+        photos: [
+            "/images/city/montauban/montauban_1.jpg",
+            "/images/city/montauban/montauban_2.jpg",
+            "/images/city/montauban/montauban_3.jpg",
+            "/images/city/montauban/montauban_4.jpg",
+            "/images/city/montauban/montauban_5.jpg",
+            "/images/city/montauban/montauban_6.jpg"
+        ]
     },
     "Agen": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [44.2000, 0.6200],
-        photos: []
+        photos: [
+            "/images/city/agen/agen_1.jpg",
+            "/images/city/agen/agen_2.jpg",
+            "/images/city/agen/agen_3.jpg",
+            "/images/city/agen/agen_4.jpg",
+            "/images/city/agen/agen_5.jpg",
+            "/images/city/agen/agen_6.jpg",
+            "/images/city/agen/agen_7.jpg",
+            "/images/city/agen/agen_8.jpg",
+            "/images/city/agen/agen_9.jpg"
+        ]
     },
     "Carcassonne": {
         icons: "/images/icon/town-svgrepo-com.png",
