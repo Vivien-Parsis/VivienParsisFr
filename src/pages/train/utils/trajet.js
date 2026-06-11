@@ -388,6 +388,20 @@ const trajets = {
         mois: "Mai 2026",
         type: "train"
     },
+    "Hendaye-Saint-Sébastien": {
+        coords: [locations["Hendaye"].coord, locations["Saint-Sébastien"].coord],
+        number: 2,
+        distance: 21,
+        mois: "Aout 2025",
+        type: "train"
+    },
+    "Hendaye-Bilbao": {
+        coords: [locations["Hendaye"].coord, locations["Bilbao"].coord],
+        number: 2,
+        distance: 60,
+        mois: "Aout 2025",
+        type: "train"
+    },
 };
 
 export { trajets }

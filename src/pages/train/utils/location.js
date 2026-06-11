@@ -177,12 +177,26 @@ const locations = {
     "Bayonne": {
         icons: "/images/icon/town-svgrepo-com.png",
         coord: [43.4933, -1.4747],
-        photos: []
+        photos: [
+            "/images/city/bayonne/bayonne_1.jpg",
+            "/images/city/bayonne/bayonne_2.jpg",
+        ]
     },
     "Hendaye": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [43.3589, -1.7746],
-        photos: []
+        photos: [
+            "/images/city/hendaye/hendaye_1.jpg",
+            "/images/city/hendaye/hendaye_2.jpg",
+            "/images/city/hendaye/hendaye_3.jpg",
+            "/images/city/hendaye/hendaye_4.jpg",
+            "/images/city/hendaye/hendaye_5.jpg",
+            "/images/city/hendaye/hendaye_6.jpg",
+            "/images/city/hendaye/hendaye_7.jpg",
+            "/images/city/hendaye/hendaye_8.jpg",
+            "/images/city/hendaye/hendaye_9.jpg",
+            "/images/city/hendaye/hendaye_10.jpg",
+        ]
     },
     "Montauban": {
         icons: "/images/icon/town-svgrepo-com-with-photo.png",
@@ -232,9 +246,23 @@ const locations = {
         photos: []
     },
     "Bordeaux": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [44.8253, -0.5560],
-        photos: []
+        photos: [
+            "/images/city/bordeaux/bordeaux_1.jpg",
+            "/images/city/bordeaux/bordeaux_2.jpg",
+            "/images/city/bordeaux/bordeaux_3.jpg",
+            "/images/city/bordeaux/bordeaux_4.jpg",
+            "/images/city/bordeaux/bordeaux_5.jpg",
+            "/images/city/bordeaux/bordeaux_6.jpg",
+            "/images/city/bordeaux/bordeaux_7.jpg",
+            "/images/city/bordeaux/bordeaux_8.jpg",
+            "/images/city/bordeaux/bordeaux_9.jpg",
+            "/images/city/bordeaux/bordeaux_10.jpg",
+            "/images/city/bordeaux/bordeaux_11.jpg",
+            "/images/city/bordeaux/bordeaux_12.jpg",
+            "/images/city/bordeaux/bordeaux_13.jpg",
+        ]
     },
     "Montpellier": {
         icons: "/images/icon/town-svgrepo-com-with-photo.png",
@@ -255,7 +283,7 @@ const locations = {
         ]
     },
     "Nantes": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [47.2173, -1.5534],
         photos: [
             "/images/city/nantes/nantes_1.jpg",
@@ -461,9 +489,49 @@ const locations = {
         ]
     },
     "Bruxelles": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [50.84666522439074, 4.352560043334962],
-        photos: []
+        photos: [
+            "/images/city/bruxelles/bruxelles_1.JPG",
+            "/images/city/bruxelles/bruxelles_2.JPG",
+            "/images/city/bruxelles/bruxelles_3.JPG",
+            "/images/city/bruxelles/bruxelles_4.JPG",
+            "/images/city/bruxelles/bruxelles_5.JPG",
+            "/images/city/bruxelles/bruxelles_6.JPG",
+            "/images/city/bruxelles/bruxelles_7.jpg",
+            "/images/city/bruxelles/bruxelles_8.jpg",
+            "/images/city/bruxelles/bruxelles_9.jpg",
+            "/images/city/bruxelles/bruxelles_10.jpg",
+            "/images/city/bruxelles/bruxelles_11.jpg",
+            "/images/city/bruxelles/bruxelles_12.jpg",
+            "/images/city/bruxelles/bruxelles_13.jpg",
+            "/images/city/bruxelles/bruxelles_14.jpg",
+            "/images/city/bruxelles/bruxelles_15.jpg",
+            "/images/city/bruxelles/bruxelles_16.jpg",
+            "/images/city/bruxelles/bruxelles_17.jpg",
+            "/images/city/bruxelles/bruxelles_18.jpg",
+            "/images/city/bruxelles/bruxelles_19.jpg",
+            "/images/city/bruxelles/bruxelles_20.jpg",
+            "/images/city/bruxelles/bruxelles_21.jpg",
+            "/images/city/bruxelles/bruxelles_22.jpg",
+            "/images/city/bruxelles/bruxelles_23.jpg",
+            "/images/city/bruxelles/bruxelles_24.jpg",
+            "/images/city/bruxelles/bruxelles_25.jpg",
+            "/images/city/bruxelles/bruxelles_26.jpg",
+            "/images/city/bruxelles/bruxelles_27.jpg",
+            "/images/city/bruxelles/bruxelles_28.jpg",
+            "/images/city/bruxelles/bruxelles_29.jpg",
+            "/images/city/bruxelles/bruxelles_30.jpg",
+            "/images/city/bruxelles/bruxelles_31.jpg",
+            "/images/city/bruxelles/bruxelles_32.jpg",
+            "/images/city/bruxelles/bruxelles_33.jpg",
+            "/images/city/bruxelles/bruxelles_34.jpg",
+            "/images/city/bruxelles/bruxelles_35.jpg",
+            "/images/city/bruxelles/bruxelles_36.jpg",
+            "/images/city/bruxelles/bruxelles_37.jpg",
+            "/images/city/bruxelles/bruxelles_38.jpg",
+            "/images/city/bruxelles/bruxelles_39.jpg",
+        ]
     },
     "Angers": {
         icons: "/images/icon/town-svgrepo-com-with-photo.png",
@@ -525,18 +593,18 @@ const locations = {
         icons: "/images/icon/cable-car-cabin-cable-car-svgrepo-com.png",
         coord: [48.7687, 2.4649],
         photos: [
-            "/images/city/cable1/cable11.jpg",
-            "/images/city/cable1/cable12.jpg",
-            "/images/city/cable1/cable13.jpg",
-            "/images/city/cable1/cable14.jpg",
-            "/images/city/cable1/cable15.jpg",
-            "/images/city/cable1/cable16.jpg",
-            "/images/city/cable1/cable17.jpg",
-            "/images/city/cable1/cable18.jpg",
-            "/images/city/cable1/cable19.jpg",
-            "/images/city/cable1/cable110.jpg",
-            "/images/city/cable1/cable111.jpg",
-            "/images/city/cable1/cable112.jpg",
+            "/images/city/cable/cable_1.jpg",
+            "/images/city/cable/cable_2.jpg",
+            "/images/city/cable/cable_3.jpg",
+            "/images/city/cable/cable_4.jpg",
+            "/images/city/cable/cable_5.jpg",
+            "/images/city/cable/cable_6.jpg",
+            "/images/city/cable/cable_7.jpg",
+            "/images/city/cable/cable_8.jpg",
+            "/images/city/cable/cable_9.jpg",
+            "/images/city/cable/cable_10.jpg",
+            "/images/city/cable/cable_11.jpg",
+            "/images/city/cable/cable_12.jpg",
         ]
     },
     "Nevers": {
@@ -695,6 +763,45 @@ const locations = {
             "/images/city/annecy/annecy_15.jpg",
         ]
     },
+    "Saint-Sébastien": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
+        coord: [43.3183, -1.9812],
+        photos: [
+            "/images/city/donastia/donastia_1.JPG",
+            "/images/city/donastia/donastia_2.jpg",
+            "/images/city/donastia/donastia_3.jpg",
+            "/images/city/donastia/donastia_4.jpg",
+            "/images/city/donastia/donastia_5.jpg",
+            "/images/city/donastia/donastia_6.jpg",
+            "/images/city/donastia/donastia_7.jpg",
+            "/images/city/donastia/donastia_8.jpg",
+            "/images/city/donastia/donastia_9.jpg",
+        ]
+    },
+    "Bilbao": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
+        coord: [43.2630, -2.9350],
+        photos: [
+            "/images/city/bilbao/bilbao_1.jpg",
+            "/images/city/bilbao/bilbao_2.jpg",
+            "/images/city/bilbao/bilbao_3.jpg",
+            "/images/city/bilbao/bilbao_4.jpg",
+            "/images/city/bilbao/bilbao_5.jpg",
+            "/images/city/bilbao/bilbao_6.jpg",
+            "/images/city/bilbao/bilbao_7.jpg",
+            "/images/city/bilbao/bilbao_8.jpg",
+            "/images/city/bilbao/bilbao_9.jpg",
+            "/images/city/bilbao/bilbao_10.jpg",
+            "/images/city/bilbao/bilbao_11.jpg",
+            "/images/city/bilbao/bilbao_12.jpg",
+            "/images/city/bilbao/bilbao_13.jpg",
+            "/images/city/bilbao/bilbao_14.jpg",
+            "/images/city/bilbao/bilbao_15.jpg",
+            "/images/city/bilbao/bilbao_16.jpg",
+            "/images/city/bilbao/bilbao_17.jpg",
+            "/images/city/bilbao/bilbao_18.jpg",
+        ]
+    }
 }
 
 export { center, locations }
