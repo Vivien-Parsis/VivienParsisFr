@@ -257,7 +257,28 @@ const locations = {
     "Nantes": {
         icons: "/images/icon/town-svgrepo-com.png",
         coord: [47.2173, -1.5534],
-        photos: []
+        photos: [
+            "/images/city/nantes/nantes_1.jpg",
+            "/images/city/nantes/nantes_2.jpg",
+            "/images/city/nantes/nantes_3.jpg",
+            "/images/city/nantes/nantes_4.jpg",
+            "/images/city/nantes/nantes_5.jpg",
+            "/images/city/nantes/nantes_6.jpg",
+            "/images/city/nantes/nantes_7.jpg",
+            "/images/city/nantes/nantes_8.jpg",
+            "/images/city/nantes/nantes_9.jpg",
+            "/images/city/nantes/nantes_10.jpg",
+            "/images/city/nantes/nantes_11.jpg",
+            "/images/city/nantes/nantes_12.jpg",
+            "/images/city/nantes/nantes_13.jpg",
+            "/images/city/nantes/nantes_14.jpg",
+            "/images/city/nantes/nantes_15.jpg",
+            "/images/city/nantes/nantes_16.jpg",
+            "/images/city/nantes/nantes_17.jpg",
+            "/images/city/nantes/nantes_18.jpg",
+            "/images/city/nantes/nantes_19.jpg",
+            "/images/city/nantes/nantes_20.jpg",
+        ]
     },
     "Lyon": {
         icons: "/images/icon/town-svgrepo-com-with-photo.png",
@@ -299,34 +320,89 @@ const locations = {
         ]
     },
     "Creil": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.264104, 2.469087],
-        photos: []
+        photos: [
+            "/images/city/creil/creil_1.jpg",
+            "/images/city/creil/creil_2.jpg",
+            "/images/city/creil/creil_3.jpg",
+            "/images/city/creil/creil_4.jpg",
+            "/images/city/creil/creil_5.jpg",
+            "/images/city/creil/creil_6.jpg",
+            "/images/city/creil/creil_7.jpg",
+            "/images/city/creil/creil_8.jpg",
+        ]
     },
     "Villers-Cotterêts": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.250107, 3.093957],
-        photos: []
+        photos: [
+            "/images/city/villiers/villiers_1.jpg",
+            "/images/city/villiers/villiers_2.jpg",
+            "/images/city/villiers/villiers_3.jpg",
+            "/images/city/villiers/villiers_4.jpg",
+            "/images/city/villiers/villiers_5.jpg",
+        ]
     },
     "Chantilly": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.1942, 2.4707],
-        photos: []
+        photos: [
+            "/images/city/chantilly/chantilly_1.jpg",
+            "/images/city/chantilly/chantilly_2.jpg",
+            "/images/city/chantilly/chantilly_3.jpg",
+            "/images/city/chantilly/chantilly_4.jpg",
+            "/images/city/chantilly/chantilly_5.jpg",
+            "/images/city/chantilly/chantilly_6.jpg",
+            "/images/city/chantilly/chantilly_7.jpg",
+            "/images/city/chantilly/chantilly_8.jpg",
+            "/images/city/chantilly/chantilly_9.jpg",
+            "/images/city/chantilly/chantilly_10.jpg",
+            "/images/city/chantilly/chantilly_11.jpg",
+            "/images/city/chantilly/chantilly_12.jpg",
+            "/images/city/chantilly/chantilly_13.jpg",
+            "/images/city/chantilly/chantilly_14.jpg",
+            "/images/city/chantilly/chantilly_15.jpg",
+        ]
     },
     "Compiegne": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.4179, 2.8261],
-        photos: []
+        photos: [
+            "/images/city/compiegne/compiegne_1.jpg",
+            "/images/city/compiegne/compiegne_2.jpg",
+            "/images/city/compiegne/compiegne_3.jpg",
+            "/images/city/compiegne/compiegne_4.jpg",
+            "/images/city/compiegne/compiegne_5.jpg",
+            "/images/city/compiegne/compiegne_6.jpg",
+        ]
     },
     "Pierrefonds": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.3486, 2.9874],
-        photos: []
+        photos: [
+            "/images/city/pierrefond/pierrefond_1.jpg",
+            "/images/city/pierrefond/pierrefond_2.jpg",
+            "/images/city/pierrefond/pierrefond_3.jpg",
+            "/images/city/pierrefond/pierrefond_4.jpg",
+            "/images/city/pierrefond/pierrefond_5.jpg",
+            "/images/city/pierrefond/pierrefond_6.jpg",
+            "/images/city/pierrefond/pierrefond_7.jpg",
+        ]
     },
     "Reims": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [49.2583, 4.0317],
-        photos: []
+        photos: [
+            "/images/city/reims/reims_1.jpg",
+            "/images/city/reims/reims_2.jpg",
+            "/images/city/reims/reims_3.jpg",
+            "/images/city/reims/reims_4.jpg",
+            "/images/city/reims/reims_5.jpg",
+            "/images/city/reims/reims_6.jpg",
+            "/images/city/reims/reims_7.jpg",
+            "/images/city/reims/reims_8.jpg",
+        ]
     },
     "Pau": {
         icons: "/images/icon/town-svgrepo-com-with-photo.png",
@@ -427,9 +503,23 @@ const locations = {
         ]
     },
     "Poitiers": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [46.5802, 0.3404],
-        photos: []
+        photos: [
+            "/images/city/poitier/poitier_1.jpg",
+            "/images/city/poitier/poitier_2.jpg",
+            "/images/city/poitier/poitier_3.jpg",
+            "/images/city/poitier/poitier_4.jpg",
+            "/images/city/poitier/poitier_5.jpg",
+            "/images/city/poitier/poitier_6.jpg",
+            "/images/city/poitier/poitier_7.jpg",
+            "/images/city/poitier/poitier_8.jpg",
+            "/images/city/poitier/poitier_9.jpg",
+            "/images/city/poitier/poitier_10.jpg",
+            "/images/city/poitier/poitier_11.jpg",
+            "/images/city/poitier/poitier_12.jpg",
+            "/images/city/poitier/poitier_13.jpg",
+        ]
     },
     "Cable 1": {
         icons: "/images/icon/cable-car-cabin-cable-car-svgrepo-com.png",
@@ -450,29 +540,104 @@ const locations = {
         ]
     },
     "Nevers": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [46.9922, 3.1566],
-        photos: []
+        photos: [
+            "/images/city/nevers/nevers_1.jpg",
+            "/images/city/nevers/nevers_2.jpg",
+            "/images/city/nevers/nevers_3.jpg",
+            "/images/city/nevers/nevers_4.jpg",
+            "/images/city/nevers/nevers_5.jpg",
+            "/images/city/nevers/nevers_6.jpg",
+            "/images/city/nevers/nevers_7.jpg",
+            "/images/city/nevers/nevers_8.jpg",
+            "/images/city/nevers/nevers_9.jpg",
+            "/images/city/nevers/nevers_10.jpg",
+            "/images/city/nevers/nevers_11.jpg",
+            "/images/city/nevers/nevers_12.jpg",
+            "/images/city/nevers/nevers_13.jpg",
+            "/images/city/nevers/nevers_14.jpg",
+        ]
     },
     "Bourges": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [47.0810, 2.3988],
-        photos: []
+        photos: [
+            "/images/city/bourges/bourges_1.jpg",
+            "/images/city/bourges/bourges_2.jpg",
+            "/images/city/bourges/bourges_3.jpg",
+            "/images/city/bourges/bourges_4.jpg",
+            "/images/city/bourges/bourges_5.jpg",
+            "/images/city/bourges/bourges_6.jpg",
+            "/images/city/bourges/bourges_7.jpg",
+            "/images/city/bourges/bourges_8.jpg",
+            "/images/city/bourges/bourges_9.jpg",
+        ]
     },
     "Le Mans": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [48.0061, 0.1996],
-        photos: []
+        photos: [
+            "/images/city/lemans/lemans_1.jpg",
+            "/images/city/lemans/lemans_2.jpg",
+            "/images/city/lemans/lemans_3.jpg",
+            "/images/city/lemans/lemans_4.jpg",
+            "/images/city/lemans/lemans_5.jpg",
+            "/images/city/lemans/lemans_6.jpg",
+            "/images/city/lemans/lemans_7.jpg",
+            "/images/city/lemans/lemans_8.jpg",
+            "/images/city/lemans/lemans_9.jpg",
+            "/images/city/lemans/lemans_10.jpg",
+            "/images/city/lemans/lemans_11.jpg",
+            "/images/city/lemans/lemans_12.jpg",
+            "/images/city/lemans/lemans_13.jpg",
+            "/images/city/lemans/lemans_14.jpg",
+            "/images/city/lemans/lemans_15.jpg",
+            "/images/city/lemans/lemans_16.jpg",
+            "/images/city/lemans/lemans_17.jpg",
+        ]
     },
     "Clermont-Ferrand": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [45.7772, 3.0870],
-        photos: []
+        photos: [
+            "/images/city/clermont/clermont_1.jpg",
+            "/images/city/clermont/clermont_2.jpg",
+            "/images/city/clermont/clermont_3.jpg",
+            "/images/city/clermont/clermont_4.jpg",
+            "/images/city/clermont/clermont_5.jpg",
+            "/images/city/clermont/clermont_6.jpg",
+            "/images/city/clermont/clermont_7.jpg",
+            "/images/city/clermont/clermont_8.jpg",
+            "/images/city/clermont/clermont_9.jpg",
+            "/images/city/clermont/clermont_10.jpg",
+            "/images/city/clermont/clermont_11.jpg",
+            "/images/city/clermont/clermont_12.jpg",
+            "/images/city/clermont/clermont_13.jpg",
+            "/images/city/clermont/clermont_14.jpg",
+            "/images/city/clermont/clermont_15.jpg",
+            "/images/city/clermont/clermont_16.jpg",
+            "/images/city/clermont/clermont_17.jpg",
+            "/images/city/clermont/clermont_18.jpg",
+            "/images/city/clermont/clermont_19.jpg",
+        ]
     },
     "Vichy": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [46.1267, 3.4267],
-        photos: []
+        photos: [
+            "/images/city/vichy/vichy_1.jpg",
+            "/images/city/vichy/vichy_2.jpg",
+            "/images/city/vichy/vichy_3.jpg",
+            "/images/city/vichy/vichy_4.jpg",
+            "/images/city/vichy/vichy_5.jpg",
+            "/images/city/vichy/vichy_6.jpg",
+            "/images/city/vichy/vichy_7.jpg",
+            "/images/city/vichy/vichy_8.jpg",
+            "/images/city/vichy/vichy_9.jpg",
+            "/images/city/vichy/vichy_10.jpg",
+            "/images/city/vichy/vichy_11.jpg",
+        ]
     },
     "Aix-les-Bains": {
         icons: "/images/icon/town-svgrepo-com-with-photo.png",
