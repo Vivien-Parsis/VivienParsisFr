@@ -190,7 +190,7 @@ const locations = {
         ]
     },
     "Toulouse": {
-        icons: "/images/icon/town-svgrepo-com-with-photo.pn",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [43.6111, 1.4546],
         photos: [
             "/images/city/toulouse/toulouse_1.jpg",
