@@ -11,9 +11,29 @@ const locations = {
         ]
     },
     "Lille": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [50.6364, 3.0708],
-        photos: []
+        photos: [
+            "/images/city/lille/lille_1.jpg",
+            "/images/city/lille/lille_2.jpg",
+            "/images/city/lille/lille_3.jpg",
+            "/images/city/lille/lille_4.jpg",
+            "/images/city/lille/lille_5.jpg",
+            "/images/city/lille/lille_6.jpg",
+            "/images/city/lille/lille_7.jpg",
+            "/images/city/lille/lille_8.jpg",
+            "/images/city/lille/lille_9.jpg",
+            "/images/city/lille/lille_10.jpg",
+            "/images/city/lille/lille_11.jpg",
+            "/images/city/lille/lille_12.jpg",
+            "/images/city/lille/lille_13.jpg",
+            "/images/city/lille/lille_14.jpg",
+            "/images/city/lille/lille_15.jpg",
+            "/images/city/lille/lille_16.jpg",
+            "/images/city/lille/lille_17.jpg",
+            "/images/city/lille/lille_18.jpg",
+            "/images/city/lille/lille_19.jpg",
+        ]
     },
     "Avallon": {
         icons: "/images/icon/town-svgrepo-com-with-photo.png",
@@ -170,7 +190,7 @@ const locations = {
         ]
     },
     "Toulouse": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.pn",
         coord: [43.6111, 1.4546],
         photos: [
             "/images/city/toulouse/toulouse_1.jpg",
