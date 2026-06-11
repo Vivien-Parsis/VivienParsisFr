@@ -175,7 +175,7 @@ const locations = {
         photos: []
     },
     "Bayonne": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [43.4933, -1.4747],
         photos: [
             "/images/city/bayonne/bayonne_1.jpg",
@@ -239,11 +239,15 @@ const locations = {
             "/images/city/carcassonne/carcassonne_8.jpg"
         ]
     },
-    //todo : manque de photo
     "Narbonne": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [43.1843, 3.0034],
-        photos: []
+        photos: [
+            "/images/city/narbonne/narbonne_1.jpg",
+            "/images/city/narbonne/narbonne_2.jpg",
+            "/images/city/narbonne/narbonne_3.jpg",
+            "/images/city/narbonne/narbonne_4.jpg",
+        ]
     },
     "Bordeaux": {
         icons: "/images/icon/town-svgrepo-com-with-photo.png",
@@ -275,11 +279,6 @@ const locations = {
             "/images/city/montpelier/montpelier_5.jpg",
             "/images/city/montpelier/montpelier_6.jpg",
             "/images/city/montpelier/montpelier_7.jpg",
-            "/images/city/montpelier/montpelier_8.jpg",
-            "/images/city/montpelier/montpelier_9.jpg",
-            "/images/city/montpelier/montpelier_10.jpg",
-            "/images/city/montpelier/montpelier_11.jpg",
-            "/images/city/montpelier/montpelier_12.jpg"
         ]
     },
     "Nantes": {
