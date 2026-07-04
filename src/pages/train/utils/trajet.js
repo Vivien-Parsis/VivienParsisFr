@@ -402,6 +402,13 @@ const trajets = {
         mois: "Aout 2025",
         type: "train"
     },
+    "Paris-Châlons-en-Champagne": {
+        coords: [locations["Paris"].coord, locations["Châlons-en-Champagne"].coord],
+        number: 2,
+        distance: 188,
+        mois: "Juillet 2026",
+        type: "train"
+    },
 };
 
 export { trajets }
