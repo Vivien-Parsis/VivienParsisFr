@@ -847,7 +847,12 @@ const locations = {
             "/images/city/bilbao/bilbao_17.jpg",
             "/images/city/bilbao/bilbao_18.jpg",
         ]
-    }
+    },
+    "Châlons-en-Champagne": {
+            icons: "/images/icon/town-svgrepo-com.png",
+            coord: [48.9573, 4.3649],
+            photos: []
+    },
 }
 
 export { center, locations }
