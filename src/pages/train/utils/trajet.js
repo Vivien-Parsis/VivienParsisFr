@@ -409,6 +409,13 @@ const trajets = {
         mois: "Juillet 2026",
         type: "train"
     },
+    "Paris-Dormans": {
+        coords: [locations["Paris"].coord, locations["Dormans"].coord],
+        number: 2,
+        distance: 120,
+        mois: "Juillet 2026",
+        type: "train"
+    },
 };
 
 export { trajets }
