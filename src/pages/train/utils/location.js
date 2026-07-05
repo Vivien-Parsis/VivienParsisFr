@@ -853,6 +853,11 @@ const locations = {
             coord: [48.9573, 4.3649],
             photos: []
     },
+    "Dormans": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [49.0717, 3.6397],
+        photos: []
+    },
 }
 
 export { center, locations }
