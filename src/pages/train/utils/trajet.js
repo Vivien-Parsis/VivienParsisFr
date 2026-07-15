@@ -444,6 +444,13 @@ const trajets = {
         mois: "Juillet 2026",
         type: "train"
     },
+    "Paris-Langres": {
+        coords: [locations["Paris"].coord, locations["Langres"].coord],
+        number: 2,
+        distance: 313,
+        mois: "Juillet 2026",
+        type: "train"
+    },
 };
 
 export { trajets }
