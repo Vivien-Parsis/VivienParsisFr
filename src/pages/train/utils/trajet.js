@@ -416,6 +416,34 @@ const trajets = {
         mois: "Juillet 2026",
         type: "train"
     },
+    "Paris-Metz": {
+        coords: [locations["Paris"].coord, locations["Metz"].coord],
+        number: 1,
+        distance: 330,
+        mois: "Juillet 2026",
+        type: "train"
+    },
+    "Metz-Nancy": {
+        coords: [locations["Metz"].coord, locations["Nancy"].coord],
+        number: 1,
+        distance: 36,
+        mois: "Juillet 2026",
+        type: "train"
+    },
+    "Nancy-Paris": {
+        coords: [locations["Nancy"].coord, locations["Paris"].coord],
+        number: 1,
+        distance: 372,
+        mois: "Juillet 2026",
+        type: "train"
+    },
+    "Paris-Frankfurt": {
+        coords: [locations["Paris"].coord, locations["Frankfurt"].coord],
+        number: 2,
+        distance: 570,
+        mois: "Juillet 2026",
+        type: "train"
+    },
 };
 
 export { trajets }
