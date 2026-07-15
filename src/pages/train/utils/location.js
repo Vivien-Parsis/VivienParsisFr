@@ -858,6 +858,21 @@ const locations = {
         coord: [49.0717, 3.6397],
         photos: []
     },
+    "Metz": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [49.1193, 6.1757],
+        photos: []
+    },
+    "Nancy": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [48.6921, 6.1844],
+        photos: []
+    },
+    "Frankfurt": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [50.1109, 8.6821],
+        photos: []
+    },
 }
 
 export { center, locations }
