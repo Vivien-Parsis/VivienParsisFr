@@ -873,6 +873,11 @@ const locations = {
         coord: [50.1109, 8.6821],
         photos: []
     },
+    "Langres": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [47.8619, 5.3322],
+        photos: []
+    },
 }
 
 export { center, locations }
