@@ -878,6 +878,11 @@ const locations = {
         coord: [47.8619, 5.3322],
         photos: []
     },
+    "Bar-le-Duc": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [48.7731, 5.1607],
+        photos: []
+    },
 }
 
 export { center, locations }
