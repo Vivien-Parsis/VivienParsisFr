@@ -451,6 +451,13 @@ const trajets = {
         mois: "Juillet 2026",
         type: "train"
     },
+    "Paris-Bar-le-Duc": {
+        coords: [locations["Paris"].coord, locations["Bar-le-Duc"].coord],
+        number: 2,
+        distance: 265,
+        mois: "Juillet 2026",
+        type: "train"
+    },
 };
 
 export { trajets }
