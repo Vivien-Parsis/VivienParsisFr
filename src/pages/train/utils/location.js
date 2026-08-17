@@ -1027,6 +1027,16 @@ const locations = {
             "/images/city/bar-le-duc/bar-le-duc_16.jpg",
         ]
     },
+    "Strasbourg": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [48.5734, 7.7521],
+        photos: []
+    },
+    "Kehl": {
+        icons: "/images/icon/town-svgrepo-com.png",
+        coord: [48.5736, 7.8155],
+        photos: []
+    },
 }
 
 export { center, locations }
