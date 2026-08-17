@@ -458,6 +458,20 @@ const trajets = {
         mois: "Juillet 2026",
         type: "train"
     },
+    "Paris-Strasbourg": {
+        coords: [locations["Paris"].coord, locations["Strasbourg"].coord],
+        number: 2,
+        distance: 490,
+        mois: "Aout 2026",
+        type: "train"
+    },
+    "Strasbourg-Kehl": {
+        coords: [locations["Strasbourg"].coord, locations["Kehl"].coord],
+        number: 2,
+        distance: 4,
+        mois: "Aout 2026",
+        type: "train"
+    },
 };
 
 export { trajets }
