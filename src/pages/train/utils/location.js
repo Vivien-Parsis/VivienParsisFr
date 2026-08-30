@@ -1107,6 +1107,21 @@ const locations = {
             "/images/city/marly-le-roi/marly-le-roi_3.jpg",
         ]
     },
+    "Meudon": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
+        coord: [48.8136, 2.2350],
+        photos: [
+            "/images/city/meudon/meudon_1.jpg",
+            "/images/city/meudon/meudon_2.jpg",
+            "/images/city/meudon/meudon_3.jpg",
+            "/images/city/meudon/meudon_4.jpg",
+            "/images/city/meudon/meudon_5.jpg",
+            "/images/city/meudon/meudon_6.jpg",
+            "/images/city/meudon/meudon_7.jpg",
+            "/images/city/meudon/meudon_8.jpg",
+            "/images/city/meudon/meudon_9.jpg",
+        ]
+    },
 }
 
 export { center, locations }
