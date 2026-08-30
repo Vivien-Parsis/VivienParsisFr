@@ -1082,6 +1082,31 @@ const locations = {
             "/images/city/kehl/kehl_7.jpg",
         ]
     },
+    "Saint-Germain-en-Laye": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
+        coord: [48.8989, 2.0940],
+        photos: [
+            "/images/city/saint-germain-en-laye/saint-germain-en-laye_1.jpg",
+            "/images/city/saint-germain-en-laye/saint-germain-en-laye_2.jpg",
+            "/images/city/saint-germain-en-laye/saint-germain-en-laye_3.jpg",
+            "/images/city/saint-germain-en-laye/saint-germain-en-laye_4.jpg",
+            "/images/city/saint-germain-en-laye/saint-germain-en-laye_5.jpg",
+            "/images/city/saint-germain-en-laye/saint-germain-en-laye_6.jpg",
+            "/images/city/saint-germain-en-laye/saint-germain-en-laye_7.jpg",
+            "/images/city/saint-germain-en-laye/saint-germain-en-laye_8.jpg",
+            "/images/city/saint-germain-en-laye/saint-germain-en-laye_9.jpg",
+            "/images/city/saint-germain-en-laye/saint-germain-en-laye_10.jpg",
+        ]
+    },
+    "Marly-le-Roi": {
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
+        coord: [48.8672, 2.0833],
+        photos: [
+            "/images/city/marly-le-roi/marly-le-roi_1.jpg",
+            "/images/city/marly-le-roi/marly-le-roi_2.jpg",
+            "/images/city/marly-le-roi/marly-le-roi_3.jpg",
+        ]
+    },
 }
 
 export { center, locations }
