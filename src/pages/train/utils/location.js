@@ -1028,14 +1028,59 @@ const locations = {
         ]
     },
     "Strasbourg": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [48.5734, 7.7521],
-        photos: []
+        photos: [
+            "/images/city/strasbourg/strasbourg_1.jpg",
+            "/images/city/strasbourg/strasbourg_2.jpg",
+            "/images/city/strasbourg/strasbourg_3.jpg",
+            "/images/city/strasbourg/strasbourg_4.jpg",
+            "/images/city/strasbourg/strasbourg_5.jpg",
+            "/images/city/strasbourg/strasbourg_6.jpg",
+            "/images/city/strasbourg/strasbourg_7.jpg",
+            "/images/city/strasbourg/strasbourg_8.jpg",
+            "/images/city/strasbourg/strasbourg_9.jpg",
+            "/images/city/strasbourg/strasbourg_10.jpg",
+            "/images/city/strasbourg/strasbourg_11.jpg",
+            "/images/city/strasbourg/strasbourg_12.jpg",
+            "/images/city/strasbourg/strasbourg_13.jpg",
+            "/images/city/strasbourg/strasbourg_14.jpg",
+            "/images/city/strasbourg/strasbourg_15.jpg",
+            "/images/city/strasbourg/strasbourg_16.jpg",
+            "/images/city/strasbourg/strasbourg_17.jpg",
+            "/images/city/strasbourg/strasbourg_18.jpg",
+            "/images/city/strasbourg/strasbourg_19.jpg",
+            "/images/city/strasbourg/strasbourg_20.jpg",
+            "/images/city/strasbourg/strasbourg_21.jpg",
+            "/images/city/strasbourg/strasbourg_22.jpg",
+            "/images/city/strasbourg/strasbourg_23.jpg",
+            "/images/city/strasbourg/strasbourg_24.jpg",
+            "/images/city/strasbourg/strasbourg_25.jpg",
+            "/images/city/strasbourg/strasbourg_26.jpg",
+            "/images/city/strasbourg/strasbourg_27.jpg",
+            "/images/city/strasbourg/strasbourg_28.jpg",
+            "/images/city/strasbourg/strasbourg_29.jpg",
+            "/images/city/strasbourg/strasbourg_30.jpg",
+            "/images/city/strasbourg/strasbourg_31.jpg",
+            "/images/city/strasbourg/strasbourg_32.jpg",
+            "/images/city/strasbourg/strasbourg_33.jpg",
+            "/images/city/strasbourg/strasbourg_34.jpg",
+            "/images/city/strasbourg/strasbourg_35.jpg",
+            "/images/city/strasbourg/strasbourg_36.jpg",
+        ]
     },
     "Kehl": {
-        icons: "/images/icon/town-svgrepo-com.png",
+        icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [48.5736, 7.8155],
-        photos: []
+        photos: [
+            "/images/city/kehl/kehl_1.jpg",
+            "/images/city/kehl/kehl_2.jpg",
+            "/images/city/kehl/kehl_3.jpg",
+            "/images/city/kehl/kehl_4.jpg",
+            "/images/city/kehl/kehl_5.jpg",
+            "/images/city/kehl/kehl_6.jpg",
+            "/images/city/kehl/kehl_7.jpg",
+        ]
     },
 }
 
