@@ -37,6 +37,28 @@ const Project = () => {
 					{">"} Voir la documentation de l'api
 				</Link>
 			</div>
+			<div className={styles.project}>
+				<h2>SlayZombie</h2>
+				<p>
+					FPS rétro post-apocalyptique en 3D / sprites 2D inspiré des classiques Doom (1 & 2).
+					Le jeu est jouable directement dans le navigateur ou via une application de bureau Windows (Electron).
+				</p>
+				<p>Techno</p>
+				<ul>
+					<li>Node.js</li>
+					<li>React</li>
+					<li>Vite</li>
+				</ul>
+				<Link to="https://slayzombie.vivienp.fr/" target="_blank">
+					{">"} Voir le projet
+				</Link>
+				<Link
+					to="https://github.com/Vivien-Parsis/SlayZombie"
+					target="_blank"
+				>
+					{">"} Voir le code source
+				</Link>
+			</div>
 		</div>
 	);
 };
