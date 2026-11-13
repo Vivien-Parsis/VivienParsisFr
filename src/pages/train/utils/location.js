@@ -813,15 +813,12 @@ const locations = {
         icons: "/images/icon/town-svgrepo-com-with-photo.png",
         coord: [43.3183, -1.9812],
         photos: [
-            "/images/city/donastia/donastia_1.JPG",
+            "/images/city/donastia/donastia_1.jpg",
             "/images/city/donastia/donastia_2.jpg",
             "/images/city/donastia/donastia_3.jpg",
             "/images/city/donastia/donastia_4.jpg",
             "/images/city/donastia/donastia_5.jpg",
-            "/images/city/donastia/donastia_6.jpg",
-            "/images/city/donastia/donastia_7.jpg",
-            "/images/city/donastia/donastia_8.jpg",
-            "/images/city/donastia/donastia_9.jpg",
+            "/images/city/donastia/donastia_6.jpg"
         ]
     },
     "Bilbao": {
