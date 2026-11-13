@@ -1,46 +1,184 @@
 .container {
-  background-image: url(/src/assets/images/texture2.jpg);
-  background-size: contain;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	position: relative;
+	background: radial-gradient(
+		circle at 50% 20%,
+		#24382c 0%,
+		#16221b 55%,
+		#0e1511 100%
+	);
+	background-color: #16221b;
+	min-height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 4.5em 1.2em 3.2em;
+	overflow-x: hidden;
 }
-.container h2 {
-  text-align: center;
+
+.bgCanvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 0;
+	pointer-events: none;
+	display: block;
 }
-.container a{
-  text-align: center;
-  text-decoration: none;
+
+.galleryWrapper {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	max-width: 1050px;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
 }
+
+.cityHeader {
+	background-color: rgba(22, 34, 27, 0.8);
+	backdrop-filter: blur(12px);
+	-webkit-backdrop-filter: blur(12px);
+	border: 1px solid rgba(158, 207, 169, 0.28);
+	border-radius: 16px;
+	padding: 0.85em 1.4em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 0.8em;
+	box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+}
+
+.titleGroup {
+	display: flex;
+	align-items: baseline;
+	gap: 0.9em;
+	flex-wrap: wrap;
+}
+
+.cityHeader h2 {
+	margin: 0;
+	font-size: 1.75em;
+	color: #f1f8f3;
+	letter-spacing: 0.02em;
+}
+
+.photoCounter {
+	background-color: rgba(18, 33, 24, 0.9);
+	border: 1px solid rgba(105, 227, 152, 0.4);
+	color: #9ecfa9;
+	padding: 0.25em 0.75em;
+	border-radius: 999px;
+	font-size: 0.85em;
+	font-weight: 500;
+}
+
+.returnLink {
+	background-color: rgba(28, 46, 35, 0.9);
+	border: 1px solid rgba(158, 207, 169, 0.35);
+	color: #e2f2e6;
+	text-decoration: none;
+	font-size: 0.95em;
+	font-weight: 500;
+	padding: 0.45em 1em;
+	border-radius: 999px;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4em;
+}
+
+.returnLink:hover {
+	background-color: rgba(40, 68, 50, 0.95);
+	border-color: #69e398;
+	color: #69e398;
+}
+
+.carouselCard {
+	background-color: rgba(22, 34, 27, 0.65);
+	backdrop-filter: blur(14px);
+	-webkit-backdrop-filter: blur(14px);
+	border: 1px solid rgba(158, 207, 169, 0.25);
+	border-radius: 20px;
+	padding: 1.2em;
+	box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45);
+	overflow: hidden;
+}
+
+.slideWrapper {
+	outline: none;
+}
+
 .contentStyle {
-  display: flex !important ;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  background-color: var(--blur-green-background);
-  backdrop-filter: blur(10px);
-  padding: 1em 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 68vh;
+	max-height: 680px;
+	min-height: 320px;
+	padding: 0.5em;
+	box-sizing: border-box;
 }
 
 .contentStyle img {
-  max-width: 100%;
-  max-height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+	border-radius: 12px;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
-.ant-carousel .slick-prev,
-.ant-carousel .slick-next {
-  width: 100px !important ;
-  height: 100px !important ;
-  color: white;
+
+@media (prefers-reduced-motion: no-preference) {
+	.returnLink {
+		transition: background-color 0.2s ease, border-color 0.2s ease,
+			color 0.2s ease, transform 0.2s ease;
+	}
+
+	.returnLink:hover {
+		transform: translateX(-3px);
+	}
 }
-.cityHeader{
-  margin:3em 0 .3em;
-  font-size: 2em;
-  background-color: var(--blur-green-background);
-  backdrop-filter: blur(10px);
-  padding: .1em 0;
+
+@media (prefers-reduced-motion: reduce) {
+	.returnLink {
+		transition: none;
+	}
+
+	.returnLink:hover {
+		transform: none;
+	}
 }
-.returnLink{
-  color:rgb(96, 126, 246);
-  font-size:.75em;
+
+@media (max-width: 640px) {
+	.container {
+		padding: 4.2em 0.75em 2.8em;
+	}
+
+	.cityHeader {
+		flex-direction: column-reverse;
+		align-items: flex-start;
+		padding: 0.85em 1em;
+	}
+
+	.titleGroup {
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.cityHeader h2 {
+		font-size: 1.4em;
+	}
+
+	.carouselCard {
+		padding: 0.6em;
+	}
+
+	.contentStyle {
+		height: 56vh;
+	}
 }

@@ -213,13 +213,13 @@ const trajets = {
         mois: "Fevrier 2025",
         type: "voiture"
     },
-    "Paris-Nantes": {
-        coords: [locations["Paris"].coord, locations["Nantes"].coord],
-        number: 2,
-        distance: 379,
-        mois: "Mars 2025",
-        type: "train"
-    },
+    // "Paris-Nantes": {
+    //     coords: [locations["Paris"].coord, locations["Nantes"].coord],
+    //     number: 2,
+    //     distance: 379,
+    //     mois: "Mars 2025",
+    //     type: "train"
+    // },
     "Paris-Lyon": {
         coords: [locations["Paris"].coord, locations["Lyon"].coord],
         number: 2,
