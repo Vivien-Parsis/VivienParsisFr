@@ -9,8 +9,8 @@ const createParticle = (width, height) => ({
 	x: Math.random() * width,
 	y: Math.random() * height,
 	radius: 1.5 + Math.random() * 3,
-	speedX: (Math.random() - 0.5) * 0.35,
-	speedY: -0.15 - Math.random() * 0.35,
+	speedX: (Math.random() - 0.5) * 0.12,
+	speedY: -0.05 - Math.random() * 0.12,
 	alpha: 0.2 + Math.random() * 0.55
 });
 
@@ -71,9 +71,9 @@ const City = () => {
 				}
 				ctx.beginPath();
 				ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-				ctx.fillStyle = `rgba(158, 207, 169, ${p.alpha})`;
+				ctx.fillStyle = `rgba(255, 255, 255, ${p.alpha})`;
 				ctx.shadowBlur = 12;
-				ctx.shadowColor = "#69e398";
+				ctx.shadowColor = "#ffffff";
 				ctx.fill();
 				ctx.shadowBlur = 0;
 			}

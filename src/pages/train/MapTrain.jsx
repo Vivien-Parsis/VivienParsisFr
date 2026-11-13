@@ -103,16 +103,26 @@ const MapTrain = () => {
 			total += trajets[key].distance * trajets[key].number;
 		}
 		content.push(
-			<li key="total">
-				<RailIcon />
-				distance total : {total} km
+			<li key="total" className={`${styles.statCard} ${styles.totalCard}`}>
+				<RailIcon className={styles.statIcon} />
+				<div className={styles.statText}>
+					<span className={styles.statLabel}>Distance totale</span>
+					<strong className={styles.statValue}>
+						{total.toLocaleString("fr-FR")} km
+					</strong>
+				</div>
 			</li>
 		);
 		for (let key of Object.keys(month)) {
 			content.push(
-				<li key={key}>
-					<RailIcon />
-					{key} : {month[key]} km
+				<li key={key} className={styles.statCard}>
+					<RailIcon className={styles.statIcon} />
+					<div className={styles.statText}>
+						<span className={styles.statLabel}>{key}</span>
+						<strong className={styles.statValue}>
+							{month[key].toLocaleString("fr-FR")} km
+						</strong>
+					</div>
 				</li>
 			);
 		}
@@ -136,19 +146,39 @@ const MapTrain = () => {
 			</MapContainer>
 			<div className={styles.infoBackground}>
 				<div className={styles.infoContainer}>
-					<p>
-						Cette page retrace l'ensemble de mes déplacements en
-						train et voiture de 2024 a {new Date().getFullYear()}.
-						Les trajets sont représentés sous forme de carte. Les
-						trajets oranges ont été realisé en train, les trajets
-						ont été realisé en voiture En cliquant sur les icônes
-						situées sur la carte, vous pouvez accéder à une galerie
-						d'images pour chaque destination. <br />
-						En dessous, un récapitulatif des kilomètres accumulés au
-						cours de l'année, ainsi qu'une répartition mensuelle.
-					</p>
-					<span>Distance en train :</span>
-					<ul>{getDistanceTrain(trajets)}</ul>
+					<div className={styles.infoContent}>
+						<div className={styles.introCard}>
+							<h2 className={styles.infoTitle}>
+								Carnet de trajets (2024 – {new Date().getFullYear()})
+							</h2>
+							<p className={styles.infoDescription}>
+								Cette page retrace l&apos;ensemble de mes déplacements
+								en train et en voiture de 2024 à{" "}
+								{new Date().getFullYear()}. Sur la carte, les
+								trajets{" "}
+								<span className={styles.badgeTrain}>orange</span>{" "}
+								ont été réalisés en train et les trajets{" "}
+								<span className={styles.badgeCar}>gris</span> en
+								voiture. En cliquant sur les icônes situées sur la
+								carte, vous pouvez accéder à une galerie
+								d&apos;images pour chaque destination.
+							</p>
+							<p className={styles.infoSubtext}>
+								Retrouvez ci-dessous le récapitulatif des kilomètres
+								parcourus en train ainsi que leur répartition
+								mensuelle.
+							</p>
+						</div>
+
+						<div className={styles.statsSection}>
+							<h3 className={styles.statsTitle}>
+								Distance parcourue en train
+							</h3>
+							<ul className={styles.statsGrid}>
+								{getDistanceTrain(trajets)}
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

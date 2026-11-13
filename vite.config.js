@@ -8,9 +8,10 @@ export default defineConfig({
         react(),
         svgr(),
         ViteImageOptimizer({
-            jpeg: {
-                quality: 80,
-            }
+            jpeg: { quality: 80 },
+            jpg: { quality: 80 },
+            png: { quality: 80 },
+            webp: { quality: 80, lossless: false },
         })],
     server: {
         port: 80
